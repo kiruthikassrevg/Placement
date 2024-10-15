@@ -46,4 +46,8 @@ int main()
     int n=sizeof(a)/sizeof(a[0]);
     cout<<findMax(a,n)<<endl;
 }
+--------------------------------------------------
 
+https://docs.google.com/document/d/16vubrnUGytOFpZQC5mwCQLa7WmjRAyQpvG5Pl5zrFYE/edit?usp=sharing
+
+=======================================================================================
