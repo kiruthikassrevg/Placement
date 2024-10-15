@@ -1,0 +1,49 @@
+FINDING MINIMUM ELEMENT
+
+#include <iostream>
+using namespace std;
+int findMin(int *arr,int n){
+    int min=*arr;
+    for(int i=1;i<n;i++)
+    {
+        if(*(arr+i)<min)
+        {
+            min=*(arr+i);
+            
+        }
+    }
+    return min;
+}
+int main()
+{
+    int a[]={10,43,35,1,0};
+    int n=sizeof(a)/sizeof(a[0]);
+    cout<<findMin(a,n)<<endl;
+}
+
+OUTPUT:
+0
+=============================================================
+FINDING MAXMIUM ELEMENT
+
+#include <iostream>
+using namespace std;
+int findMax(int *arr,int n){
+    int max=*arr;
+    for(int i=1;i<n;i++)
+    {
+        if(*(arr+i)>max)
+        {
+            min=*(arr+i);
+            
+        }
+    }
+    return max;
+}
+int main()
+{
+    int a[]={10,43,35,1,0};
+    int n=sizeof(a)/sizeof(a[0]);
+    cout<<findMax(a,n)<<endl;
+}
+
